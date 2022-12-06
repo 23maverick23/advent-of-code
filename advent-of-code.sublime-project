@@ -3,7 +3,20 @@
 	[
 		{
 			"path": ".",
-			"folder_exclude_patterns": ["__pycache__", ".git"]
+			"folder_exclude_patterns": ["__pycache__", ".git", "env"]
 		}
 	],
+	"settings":
+    {
+        "LSP":
+        {
+            "LSP-pylsp":
+            {
+                "settings":
+                {
+                	"pylsp.plugins.pycodestyle.ignore": ["E501"],
+                }
+            }
+        }
+    }
 }
